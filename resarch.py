@@ -71,7 +71,7 @@ class ResearchPaperRepository:
             print(f"Note: FTS5 might not be available. Some search features may be limited. Error: {e}")
         
         self.conn.commit()
-
+#This is to create sample pdf
     def create_sample_pdf(self, filename="sample_paper.pdf"):
         """Create a sample PDF file for testing"""
         pdf = FPDF()
